@@ -1,0 +1,1 @@
+public record UpdateUserRequest(string Name);

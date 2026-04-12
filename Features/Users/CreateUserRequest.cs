@@ -1,0 +1,1 @@
+public record CreateUserRequest(string Name);
