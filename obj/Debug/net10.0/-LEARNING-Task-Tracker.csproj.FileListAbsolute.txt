@@ -27,3 +27,5 @@ D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\obj\Debug\net10.0\r
 D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\obj\Debug\net10.0\-LEARNING-Task-Tracker.pdb
 D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\obj\Debug\net10.0\-LEARNING-Task-Tracker.genruntimeconfig.cache
 D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\obj\Debug\net10.0\ref\-LEARNING-Task-Tracker.dll
+D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\bin\Debug\net10.0\NeuroPage\package-lock.json
+D:\PROJECTS\LEARNING\ASP.NET LEARNING\-LEARNING-Task-Tracker\bin\Debug\net10.0\NeuroPage\package.json

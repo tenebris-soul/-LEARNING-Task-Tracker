@@ -18,6 +18,11 @@ public static class TasksHandlers
 
     public static IResult Create(int userId, int projectId, CreateTaskRequest request)
     {
+        if (string.IsNullOrWhiteSpace(request.Description))
+        {
+            return Results.BadRequest("Description is required.");
+        }
+
         var newTask = new Task
         {
             Id = Task.NextId,

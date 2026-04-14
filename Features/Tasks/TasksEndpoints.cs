@@ -2,7 +2,7 @@ public static class TasksEndpoints
 {
     public static IEndpointRouteBuilder MapTasksEndpoints(this IEndpointRouteBuilder app)
     {
-        var group = app.MapGroup("users/{userId}/projects/{projectId}/").WithTags("Tasks");
+        var group = app.MapGroup("/users/{userId}/projects/{projectId}/tasks").WithTags("Tasks");
 
         group.MapGet("/", TasksHandlers.GetAllById)
              .WithName("GetTasksByProjectId")
@@ -16,7 +16,7 @@ public static class TasksEndpoints
              .WithName("CreateTask")
              .AddEndpointFilter<UserExistsFilter>()
              .AddEndpointFilter<ProjectExistsFilter>();
-        group.MapPut("/{taskId}/", TasksHandlers.UpdateTaskCompletion)
+        group.MapPut("/{taskId}", TasksHandlers.UpdateTaskCompletion)
              .WithName("UpdateTaskCompletion")
              .AddEndpointFilter<UserExistsFilter>()
              .AddEndpointFilter<ProjectExistsFilter>();
