@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("-LEARNING-Task-Tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15b117e9ed6d302799108269dff251f636ec7ed6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9262783551d851ca1f07ebce41a35e7e2f7ef080")]
 [assembly: System.Reflection.AssemblyProductAttribute("-LEARNING-Task-Tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("-LEARNING-Task-Tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

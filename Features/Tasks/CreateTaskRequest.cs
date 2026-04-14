@@ -1,0 +1,1 @@
+public record CreateTaskRequest(string Description);

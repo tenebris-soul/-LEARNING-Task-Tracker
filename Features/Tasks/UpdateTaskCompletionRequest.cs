@@ -1,0 +1,1 @@
+public record UpdateTaskCompletionRequest(bool IsCompleted);

@@ -1,0 +1,1 @@
+public record CreateProjectRequest(string Name, string? Description);

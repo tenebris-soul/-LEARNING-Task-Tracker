@@ -4,5 +4,7 @@ var app = builder.Build();
 app.MapGet("/", () => "Hello World!");
 
 app.MapUsersEndpoints();
+app.MapProjectsEndpoints();
+app.MapTasksEndpoints();
 
 app.Run();
